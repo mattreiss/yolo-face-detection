@@ -3,8 +3,8 @@
 ## Download the dataset
 In `download.sh` set the Kaggle Api credentials
 ```
-# KAGGLE_USERNAME="your username"
-# KAGGLE_KEY="your api key"
+KAGGLE_USERNAME="your username"
+KAGGLE_KEY="your api key"
 ```
 Run download.sh
 ```
@@ -18,7 +18,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Start Training
+## Start training
 ```
 python3 train.py
 ```
